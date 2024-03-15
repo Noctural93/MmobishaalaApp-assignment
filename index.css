@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-contianer {
+    min-height: 100vh;
+    background-image: url(Images/backgroundImage.png);
+    padding: 40px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contents-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 30px;
+}
+
+.mobishaala-details-contianer h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.mobishaala-details-contianer p {
+    color: #e3e3e3;
+    font-size: 19px;
+}
+
+.mobishaala-details-contianer p span {
+    color: rgb(244, 176, 93);
+}
+
+.mobishaala-details-contianer ul {
+    text-decoration: none;
+    color: #e3e3e3c8;
+    margin-top: 49px;
+    padding-left: 16px;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+.text{
+    color: #e3e3e398;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+.mobishaala-details-contianer button {
+    background-color: red;
+    padding: 8px 14px;
+    border: 0 solid grey;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.whats-app-btn {
+    margin-top: 9px;
+    background-color: green !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats-app-btn img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.mobishaala-video-referenc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-contianer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-contianer button {
+    background-color: red;
+    padding: 8px 14px;
+    border: 0 solid grey;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.mobile-app-main-contianer {
+    height: 100vh;
+    background-image: url(Images/backgroundImage.png);
+    background-size: cover;
+    display: none;
+}
+
+.mobile-app-main-contianer-content {
+    padding: 30px;
+}
+
+.mobile-app-main-contianer p {
+    color: #e3e3e3;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mobile-app-main-contianer p span {
+    color: rgb(244, 176, 93);
+}
+
+.video-contianer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.video-contianer p {
+    color: #e3e3e3;
+    margin-top: 22px;
+}
+
+.video-contianer button {
+    background-color: red;
+    padding: 8px 14px;
+    border: 0 solid grey;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.mobile-footer-section {
+    width: 100%;
+    background-color: red !important;
+    padding: 18px;
+    height: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    .contents-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .main-contianer {
+        display: none;
+    }
+    .mobile-app-main-contianer {
+        display: flex;
+        flex-direction: column;
+    }
+}
